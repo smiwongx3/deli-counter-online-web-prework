@@ -12,3 +12,8 @@ def line(katz_deli)
   end
 end
 
+def take_a_number(katz_deli, last_person)
+  katz_deli.each_with_index do |person, line_place|
+    puts "#{person} #{line_place+1}"
+end
+

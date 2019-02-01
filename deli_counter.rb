@@ -9,5 +9,6 @@ def line(katz_deli)
       current_line << "#{i+1}. #{person}"
   end
   puts current_line
+  end
 end
 
